@@ -1,0 +1,177 @@
+html, body, #home {
+    height: 100%;
+}
+body {
+    background: url('../img/capa.png'), 
+                url('../img/ruido.png'),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, sans-serif;
+}
+nav.navbar-transparente {
+    background: rgba(0,0,0,0.6);
+    padding: 15px 0;
+}
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+#menu a {
+    color: white;
+}
+#menu a:hover {
+    color: #9bf0e1;
+}
+.navbar-light .navbar-toggler {
+    border: 1px solid rgba(255, 255, 255,0.6);
+}
+.capa {
+    text-align: center;
+}
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 20px 25px;
+}
+.btn-roxo {
+    background: #7c26f8;
+}
+.btn-roxo:hover {
+    background: #6207e3;
+    color: white;
+}
+.btn-branco {
+    border: 2px solid white;
+}
+.btn-branco:hover {
+    background: white;
+    color: black;
+}
+.capa h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+.servicos h1,
+.servicos h2 {
+    color: #7c25f8;
+    font-weight: 700;
+}
+.servicos h1 {
+    font-size: 3em;
+}
+.facil h1,
+.facil p {
+    color: white;
+}
+.facil h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+.facil h2 {
+    color: #9bf0e1;
+    font-weight: 600;
+}
+.imagens {
+    transform: rotate(30deg);
+    padding: 80px;
+}
+.facil {
+    overflow: hidden;
+}
+.carousel-control-prev .carousel-control-prev-icon{
+    margin-right: 80px;
+}
+.carousel-control-next .carousel-control-next-icon{
+    margin-left: 80px;
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    background: black;
+    position: relative;
+    top: -80px;
+}
+footer ul li a {
+    color: white;
+    font-size: 0.8em;
+}
+footer ul li a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+footer h4 {
+    color: #919496;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+footer .redes-sociais a {
+    margin-left: 10px;
+}
+@media (max-width: 575.98px) { 
+    .btn-roxo {
+        margin-bottom: 20px;
+    }
+    #menu {
+        margin-left: 15px;
+    }
+    .navbar-brand {
+        margin-left: 10px;
+    }
+    .navbar-toggler {
+        margin-right: 15px;
+    }
+    .divisor {
+        display: none;
+    } 
+    .company {
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .capa h1 {
+        font-size: 3em;
+    }
+    .divisor {
+        display: none;
+    } 
+    .btn-roxo {
+        margin-bottom: 20px;
+    }
+    .company {
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .capa h1 {
+        font-size: 4em;
+    }
+    footer {
+        position: initial;
+    }
+    .imagens {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .capa h1 {
+        font-size: 5em;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .capa h1 {
+        font-size: 6em;
+    }
+}
